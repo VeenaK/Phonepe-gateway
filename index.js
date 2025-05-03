@@ -10,11 +10,11 @@ const uniqid = require("uniqid");
 const app = express();
 
 // UAT environment
-const MERCHANT_ID = "PGTESTPAYUAT";
+const MERCHANT_ID = "TEST-M22LFKOILW4C6_25041";
 const PHONE_PE_HOST_URL = "https://api-preprod.phonepe.com/apis/pg-sandbox";
 const SALT_INDEX = 1;
-const SALT_KEY = "099eb0cd-02cf-4e2a-8aca-3e6c6aff0399";
-const APP_BE_URL = "http://localhost:3002"; // our application
+const SALT_KEY = "YzYwZTYwZDctY2JhNy00ZWIzLWFmNTAtOWQ3OWExODM5NTAz";
+const APP_BE_URL = "https://gstindiaservice.com/"; // our application
 
 // setting up middleware
 app.use(cors());
